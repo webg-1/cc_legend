@@ -54,7 +54,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.ambiance.css"/>
 	<style type="text/css">
-	    .background-color: #212121;
+	    body{
+			background-color: #212121;
+			color: #fff;
+		}
 
 		.ambiance-custom {
 			background: <?php echo $theme_background_opp;?>;
